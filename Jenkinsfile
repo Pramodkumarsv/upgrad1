@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GIT_REPO = 'https://github.com/amitopenwriteup/upgrad.git'
+        GIT_REPO = 'https://github.com/Pramodkumarsv/upgrad1.git'
         GIT_BRANCH = 'main'
         DOCKER_REGISTRY = 'localhost:5010'
         IMAGE_NAME = 'myimage'
